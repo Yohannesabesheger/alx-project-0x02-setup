@@ -1,13 +1,13 @@
 import Link from 'next/link';
 
-const Header: React.FC = () => {
+const Header = () => {
   return (
-    <header className="bg-blue-600 text-white p-4 flex justify-between items-center">
-      <h1 className="text-xl font-bold">ALX Project 2</h1>
-      <nav className="space-x-4">
-        <Link href="/" className="hover:underline">Home</Link>
-        <Link href="/home" className="hover:underline">/Home</Link>
-        <Link href="/about" className="hover:underline">About</Link>
+    <header className="bg-gray-800 text-white px-6 py-4 shadow-md">
+      <nav className="flex gap-6 text-lg font-medium">
+        <Link href="/home" className="hover:text-gray-300">Home</Link>
+        <Link href="/about" className="hover:text-gray-300">About</Link>
+        <Link href="/posts" className="hover:text-gray-300">Posts</Link>
+        <Link href="/users" className="hover:text-gray-300">Users</Link>
       </nav>
     </header>
   );
