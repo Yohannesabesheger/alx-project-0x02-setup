@@ -54,3 +54,6 @@ export interface CardProps {
     export interface UsersPageProps {
       users: UserProps[];
     }
+    export interface PostsPageProps {
+      posts: PostProps[];
+    }
