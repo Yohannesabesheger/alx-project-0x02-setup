@@ -51,3 +51,6 @@ export interface CardProps {
       };
     }
         
+    export interface UsersPageProps {
+      users: UserProps[];
+    }
