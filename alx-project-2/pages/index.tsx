@@ -1,7 +1,7 @@
 import Head from 'next/head';
-import Header from '../components/layout/Header';
+import Header  from '../components/layout/Header';
 
-export default function Home() {
+const Home:React.FC = () => {
   return (
     <>
       <Head>
@@ -14,3 +14,4 @@ export default function Home() {
     </>
   );
 }
+export default Home;
